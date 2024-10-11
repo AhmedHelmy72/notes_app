@@ -8,7 +8,8 @@ class NoteItem extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.only(left: 0, top: 24, bottom: 24),
       decoration: BoxDecoration(
-          color: Colors.amber, borderRadius: BorderRadius.circular(16)),
+          color: const Color.fromARGB(255, 3, 180, 118),
+          borderRadius: BorderRadius.circular(16)),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
